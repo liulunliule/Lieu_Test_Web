@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_Signup_Page_Empty_Feild_Shows_Error_</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>83061cdc-72b0-42bd-95d2-53a946d269b7</testCaseGuid>
+</TestCaseEntity>

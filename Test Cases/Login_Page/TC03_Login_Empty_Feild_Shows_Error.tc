@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Login_Empty_Feild_Shows_Error</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>19c6c67a-f14e-4559-b1a6-18c7aebdb7a1</testCaseGuid>
+</TestCaseEntity>

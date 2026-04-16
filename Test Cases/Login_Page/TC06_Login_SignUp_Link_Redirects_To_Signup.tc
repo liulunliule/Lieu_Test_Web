@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_Login_SignUp_Link_Redirects_To_Signup</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1852d58e-c3dd-4a63-8493-11a3c4cb42a2</testCaseGuid>
+</TestCaseEntity>

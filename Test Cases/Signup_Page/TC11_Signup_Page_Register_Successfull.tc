@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_Signup_Page_Register_Successfull</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e23d84e6-7421-4b24-8078-a5b6ee19af81</testCaseGuid>
+</TestCaseEntity>
