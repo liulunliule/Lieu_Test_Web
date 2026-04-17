@@ -16,21 +16,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import common.CommonKeywords
 import auth.AuthKeywords
-import common.ToastKeywords
 
 AuthKeywords auth = new AuthKeywords()
 
-auth.login('', '')
+auth.login('liu@abc.com', 'liu@abc.com')
 
-WebUI.waitForElementVisible(findTestObject('Toast/message'), 5)
-
-WebUI.verifyTextPresent('điền đầy đủ thông tin', true, FailureHandling.STOP_ON_FAILURE)
-
-
-ToastKeywords toast = new ToastKeywords()
-
-toast.verifyToast('điền đầy đủ thông tin')
+//WebUI.callTestCase(findTestCase('Login_Page/TC04_Login_Valid_Credentials_Redirects_To_Profile'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+WebUI.verifyElementPresent(findTestObject('Profile_Page/card_name'), 5)
 
 WebUI.closeBrowser()
 

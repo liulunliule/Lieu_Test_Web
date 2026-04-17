@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15_Profile_Change_Pass_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>96d3d314-95ba-4fec-a2fc-bc8f6793d1aa</testCaseGuid>
+</TestCaseEntity>

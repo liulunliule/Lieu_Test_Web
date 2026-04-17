@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC17_Profile_Change_Pass_Expass_Incorrect</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>60ec7bd8-4f27-4969-863b-8a99e912035a</testCaseGuid>
+</TestCaseEntity>

@@ -19,32 +19,52 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.BASE_URL + '/signup')
 
-WebUI.setText(findTestObject('Page_Signup/txt_name'), 'liu')
+WebUI.setText(findTestObject('Page_Signup/txt_name'), 'Test User122')
 
-WebUI.setText(findTestObject('Page_Signup/txt_email'), 'liu@abc.com')
+//WebUI.setText(findTestObject('Page_Signup/txt_email'), 'test122@gmail.com')
+String timestamp = String.valueOf(System.currentTimeMillis())
+String randomEmail = "test" + timestamp + "@gmail.com"
+WebUI.setText(findTestObject('Page_Signup/txt_email'), randomEmail)
 
-WebUI.setText(findTestObject('Page_Signup/txt_password'), 'liu@abc.com')
+WebUI.setText(findTestObject('Page_Signup/txt_password'), '123456')
 
-WebUI.setText(findTestObject('Page_Signup/txt_confirmPassword'), 'liu@abc.com')
+WebUI.setText(findTestObject('Page_Signup/txt_confirmPassword'), '123456')
 
 WebUI.click(findTestObject('Page_Signup/radio_0'))
 
 WebUI.click(findTestObject('Page_Signup/radio_1'))
 
 WebUI.click(findTestObject('Page_Signup/btn_Register'), FailureHandling.STOP_ON_FAILURE)
+//KEYWORD 
+import common.ToastKeywords
 
-//HTML
-WebUI.verifyTextPresent('Email này đã được đăng ký', true)
+ToastKeywords toast = new ToastKeywords()
 
-//Toast
-WebUI.delay(0.5 //delay UI
-    )
+toast.verifyToast('Đăng ký thành công')
 
-boolean found = WebUI.verifyTextPresent('Email này đã được đăng ký', false, FailureHandling.CONTINUE_ON_FAILURE)
+//ĐÚNG
+//WebUI.delay(0.5)//delay UI
+//
+//boolean found = WebUI.verifyTextPresent('Đăng ký thành công', false, FailureHandling.CONTINUE_ON_FAILURE)
+//
+//if (found) {
+//	println("Toast xuất hiện thành công")
+//} else {
+//	println("Không thấy toast - có thể đã redirect hoặc lỗi")
+//}
 
-if (found) {
-    println('Toast xuất hiện thành công')
-} else {
-    println('Không thấy toast - có thể đã redirect hoặc lỗi')
-}
 
+//SAI
+//// Đợi toast xuất hiện tối đa 10 giây
+//TestObject toastMessage = findTestObject('Page_Signup/toastMessage')
+//
+//WebUI.waitForElementVisible(toastMessage, 5)//đợi để XH trong 10s , nhưng toast 3s đã mất nên đến lúc ktra ko có
+//
+//println('toastMessage: '+ toastMessage)
+//// Lấy text của toast để verify
+//String actualToastText = WebUI.getText(toastMessage)
+//println('actualToastText: '+ actualToastText)
+//
+//WebUI.verifyMatch(actualToastText, 'Đăng ký thành công! Chuyển về trang chủ...', true)
+
+WebUI.closeBrowser()

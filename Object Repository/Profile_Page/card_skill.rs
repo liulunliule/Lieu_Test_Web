@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_change_pass</name>
+   <name>card_skill</name>
    <tag></tag>
-   <elementGuidId>2a6c2ca4-d65b-41ca-b3b7-c7c50ffde96c</elementGuidId>
+   <elementGuidId>b968b3eb-2377-46c3-a4ac-6729a2e1ac78</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div[2]/button</value>
+         <value>//div[@id='root']/div[2]/div/div[2]/div[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn-change-password</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;🔐 Thay Đổi Mật Khẩu&quot;i]</value>
+         <value>internal:text=&quot;Kỹ Năng:chưa thêm kỹ năng&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>bf16caeb-e4b6-444f-8ddf-85d781164b43</webElementGuid>
+      <value>div</value>
+      <webElementGuid>d11313b7-5ae2-4388-9788-b39b57f097fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-change-password</value>
-      <webElementGuid>cdba519f-93e0-4090-9277-ef134b140660</webElementGuid>
+      <value>profile-item</value>
+      <webElementGuid>dfa8f9c1-e3fb-47f8-9f57-b11d80bf5b22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>🔐 Thay Đổi Mật Khẩu</value>
-      <webElementGuid>7f95c44e-f237-45ce-8e27-6500b9f751e6</webElementGuid>
+      <value>Kỹ Năng:chưa thêm kỹ năng</value>
+      <webElementGuid>7b52533c-01cb-420d-a713-b05e0f3b9e03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;profile-container&quot;]/div[@class=&quot;profile-card&quot;]/div[@class=&quot;profile-view&quot;]/button[@class=&quot;btn-change-password&quot;]</value>
-      <webElementGuid>1eaa72e8-10bf-4d6d-b4fb-540cecf02bec</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;profile-container&quot;]/div[@class=&quot;profile-card&quot;]/div[@class=&quot;profile-view&quot;]/div[@class=&quot;profile-item&quot;]</value>
+      <webElementGuid>92aa3306-0cad-4921-86dc-e6efa7914b3d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/div/div[2]/button</value>
-      <webElementGuid>3ec4dc29-250d-4a19-b44d-54f1baf74875</webElementGuid>
+      <value>//div[@id='root']/div[2]/div/div[2]/div[4]</value>
+      <webElementGuid>98e7dd02-1496-4763-92fa-de5db0a5898d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kỹ Năng:'])[1]/following::button[1]</value>
-      <webElementGuid>7df368d4-5507-4ab9-869c-5ea8df3fcb3e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Giới Tính:'])[1]/following::div[1]</value>
+      <webElementGuid>9d4e328d-11bf-4001-a594-670864402824</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Giới Tính:'])[1]/following::button[1]</value>
-      <webElementGuid>8cc7df6c-596a-4da1-ae14-6cb46a9acfc5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/following::div[2]</value>
+      <webElementGuid>c978afea-b815-4192-b8c3-bc33e299bc8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='🔐 Thay Đổi Mật Khẩu']/parent::*</value>
-      <webElementGuid>46b0325f-cc19-4ac5-a384-539d8f7ec601</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='🔐 Thay Đổi Mật Khẩu'])[1]/preceding::div[1]</value>
+      <webElementGuid>9b35d0d1-b621-475c-b7e0-cc85d0bcce6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/button</value>
-      <webElementGuid>e8488c99-745d-46c7-b205-a8adc1e33ba7</webElementGuid>
+      <value>//div[4]</value>
+      <webElementGuid>47cdd945-9747-4143-a00d-ecc33440d5c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = '🔐 Thay Đổi Mật Khẩu' or . = '🔐 Thay Đổi Mật Khẩu')]</value>
-      <webElementGuid>82b44fbe-a1a7-4b73-b66c-57d7f20eab66</webElementGuid>
+      <value>//div[(text() = 'Kỹ Năng:chưa thêm kỹ năng' or . = 'Kỹ Năng:chưa thêm kỹ năng')]</value>
+      <webElementGuid>606a49c7-a570-49e6-b2d4-3f1184ce325a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

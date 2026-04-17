@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_change_pass</name>
+   <name>message</name>
    <tag></tag>
-   <elementGuidId>2a6c2ca4-d65b-41ca-b3b7-c7c50ffde96c</elementGuidId>
+   <elementGuidId>4e623315-1170-49e3-8d3b-8dd4358bcb80</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div[2]/button</value>
+         <value>//div[@id='root']/div[2]/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn-change-password</value>
+         <value>div.error-message</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;🔐 Thay Đổi Mật Khẩu&quot;i]</value>
+         <value>internal:text=&quot;Vui lòng điền đầy đủ thông tin&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>bf16caeb-e4b6-444f-8ddf-85d781164b43</webElementGuid>
+      <value>div</value>
+      <webElementGuid>872e0153-94b8-4cd9-a7fb-e1b7275a6c92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-change-password</value>
-      <webElementGuid>cdba519f-93e0-4090-9277-ef134b140660</webElementGuid>
+      <value>error-message</value>
+      <webElementGuid>260d0aeb-582b-4f3a-9478-1f3dee919929</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>🔐 Thay Đổi Mật Khẩu</value>
-      <webElementGuid>7f95c44e-f237-45ce-8e27-6500b9f751e6</webElementGuid>
+      <value>Vui lòng điền đầy đủ thông tin</value>
+      <webElementGuid>2a48d842-0414-4e11-9ab8-794a7abef15d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;profile-container&quot;]/div[@class=&quot;profile-card&quot;]/div[@class=&quot;profile-view&quot;]/button[@class=&quot;btn-change-password&quot;]</value>
-      <webElementGuid>1eaa72e8-10bf-4d6d-b4fb-540cecf02bec</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;login-container&quot;]/div[@class=&quot;login-card&quot;]/div[@class=&quot;error-message&quot;]</value>
+      <webElementGuid>88714a48-8c34-4d10-b278-acba693c0d56</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/div/div[2]/button</value>
-      <webElementGuid>3ec4dc29-250d-4a19-b44d-54f1baf74875</webElementGuid>
+      <value>//div[@id='root']/div[2]/div/div</value>
+      <webElementGuid>72363c98-4a51-4f23-8cb5-50228979ecb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kỹ Năng:'])[1]/following::button[1]</value>
-      <webElementGuid>7df368d4-5507-4ab9-869c-5ea8df3fcb3e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đăng Nhập'])[1]/following::div[1]</value>
+      <webElementGuid>46b8a7f5-4320-44d2-9b27-991c85e2a43e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Giới Tính:'])[1]/following::button[1]</value>
-      <webElementGuid>8cc7df6c-596a-4da1-ae14-6cb46a9acfc5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/preceding::div[1]</value>
+      <webElementGuid>7deb28ab-88c2-46ff-891e-250919d2c566</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='🔐 Thay Đổi Mật Khẩu']/parent::*</value>
-      <webElementGuid>46b0325f-cc19-4ac5-a384-539d8f7ec601</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mật Khẩu:'])[1]/preceding::div[2]</value>
+      <webElementGuid>8549b287-1fcb-4309-95f2-f0a0cd0045e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Vui lòng điền đầy đủ thông tin']/parent::*</value>
+      <webElementGuid>818ad425-e405-4f2e-9331-4ddcb195666e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/button</value>
-      <webElementGuid>e8488c99-745d-46c7-b205-a8adc1e33ba7</webElementGuid>
+      <value>//div[2]/div/div</value>
+      <webElementGuid>22c06ef8-1acc-49cb-950c-70a7e17535dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = '🔐 Thay Đổi Mật Khẩu' or . = '🔐 Thay Đổi Mật Khẩu')]</value>
-      <webElementGuid>82b44fbe-a1a7-4b73-b66c-57d7f20eab66</webElementGuid>
+      <value>//div[(text() = 'Vui lòng điền đầy đủ thông tin' or . = 'Vui lòng điền đầy đủ thông tin')]</value>
+      <webElementGuid>8eb8c1bb-975b-4d5d-917e-4e56adef618d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

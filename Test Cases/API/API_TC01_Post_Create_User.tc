@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API_TC01_Post_Create_User</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>806f776e-3e7c-429a-91fd-228c7f834a03</testCaseGuid>
+</TestCaseEntity>

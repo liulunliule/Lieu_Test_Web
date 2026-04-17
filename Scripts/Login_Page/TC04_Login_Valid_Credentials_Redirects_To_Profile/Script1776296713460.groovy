@@ -16,20 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import auth.AuthKeywords
+import common.CommonKeywords
+import common.ToastKeywords
 
-WebUI.openBrowser('https://lieu-web-test.vercel.app/login')
+AuthKeywords auth = new AuthKeywords()
+CommonKeywords common = new CommonKeywords()
+ToastKeywords toast = new ToastKeywords()
 
-WebUI.setText(findTestObject('Login_Page/txt_email'), 'liu@abc.com')
+auth.login('liu@abc.com', 'liu@abc.com')
 
-WebUI.setText(findTestObject('Login_Page/txt_pass'), 'liu@abc.com')
-
-WebUI.click(findTestObject('Login_Page/btn_Login'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('Toast/message_Error'), 5)
+WebUI.waitForElementVisible(findTestObject('Toast/message'), 5)
 
 WebUI.verifyTextPresent('Đăng nhập thành công', true, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Profile_Page/card_profile'))
+toast.verifyToast('Đăng nhập thành công')
 
 WebUI.closeBrowser()
 

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify that the homepage loads without errors, returns HTTP 200, and navigates to the correct URL.</description>
-   <name>TC01_Homepage_Load_Successfully</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>118d8089-5fdf-434f-98f9-d41dbc6cec7e</testCaseGuid>
-</TestCaseEntity>

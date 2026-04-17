@@ -16,21 +16,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import auth.AuthKeywords
+import common.CommonKeywords as CommonKeywords
+import auth.AuthKeywords as AuthKeywords
 import common.ToastKeywords
 
 AuthKeywords auth = new AuthKeywords()
 
-auth.login('', '')
+auth.login('liu@abc.com', 'liu@abc.com')
 
-WebUI.waitForElementVisible(findTestObject('Toast/message'), 5)
+//String timestamp = String.valueOf(System.currentTimeMillis())
+//String randomPass = "test" + timestamp + "pass"
 
-WebUI.verifyTextPresent('điền đầy đủ thông tin', true, FailureHandling.STOP_ON_FAILURE)
+auth.changePassword("liu@abc", "liu@abc.com", "liu@abc.com")
 
 
 ToastKeywords toast = new ToastKeywords()
 
-toast.verifyToast('điền đầy đủ thông tin')
+toast.verifyToast('Mật khẩu cũ không chính xác')
 
 WebUI.closeBrowser()
 

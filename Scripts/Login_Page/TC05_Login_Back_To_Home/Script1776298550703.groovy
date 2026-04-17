@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://lieu-web-test.vercel.app/login')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/login')
 
 WebUI.click(findTestObject('Login_Page/btn_back'), FailureHandling.STOP_ON_FAILURE)
 

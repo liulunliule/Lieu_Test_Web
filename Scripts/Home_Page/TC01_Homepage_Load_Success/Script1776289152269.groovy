@@ -16,21 +16,32 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import auth.AuthKeywords
-import common.ToastKeywords
 
-AuthKeywords auth = new AuthKeywords()
+WebUI.openBrowser(GlobalVariable.BASE_URL)
 
-auth.login('', '')
+WebUI.verifyMatch(WebUI.getText(findTestObject('Page_Home/txt_Hello')), '.*xin chào.*', true)
 
-WebUI.waitForElementVisible(findTestObject('Toast/message'), 5)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Page_Home/txt_Welcome')), '.*Chào mừng.*', true)
 
-WebUI.verifyTextPresent('điền đầy đủ thông tin', true, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Home/btn_Login'))
 
+WebUI.waitForPageLoad(5)
 
-ToastKeywords toast = new ToastKeywords()
+//test qua phần tử
+WebUI.waitForElementVisible(findTestObject('Login_Page/card_Login'), 5)
 
-toast.verifyToast('điền đầy đủ thông tin')
+// test qua URL
+//String currentUrl = WebUI.getUrl()
+//
+//WebUI.verifyMatch(currentUrl, '.*\\/login.*', true)
+//
+WebUI.back()
+
+WebUI.waitForPageLoad(5)
+
+WebUI.waitForElementVisible(findTestObject('Page_Signup/card_Register'), 5)
+
+WebUI.click(findTestObject('Page_Home/btn_Register'))
 
 WebUI.closeBrowser()
 

@@ -16,8 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import common.ToastKeywords
 
-WebUI.openBrowser('https://lieu-web-test.vercel.app/signup')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/signup')
 
 WebUI.setText(findTestObject('Page_Signup/txt_name'), '')
 
@@ -27,11 +28,13 @@ WebUI.setText(findTestObject('Page_Signup/txt_password'), '')
 
 WebUI.setText(findTestObject('Page_Signup/txt_confirmPassword'), '')
 
-// ghi TH radio không chọn và chọn opt còn lại
-//ghi TH ko chọn checkbox nào và chọn tất cả checkbox (dữ liệu của checkbox lấy từ api (ko biết sl) 
 WebUI.click(findTestObject('Page_Signup/btn_Register'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyTextPresent('Vui lòng điền đầy đủ thông tin', true)
+
+ToastKeywords toast = new ToastKeywords()
+
+toast.verifyToast('Vui lòng điền đầy đủ thông tin')
 
 WebUI.closeBrowser()
 

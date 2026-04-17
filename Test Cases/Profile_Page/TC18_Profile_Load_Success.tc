@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC18_Profile_Load_Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>55decc4a-5d7b-4ff8-b91a-49d4b4cc3a3e</testCaseGuid>
+</TestCaseEntity>

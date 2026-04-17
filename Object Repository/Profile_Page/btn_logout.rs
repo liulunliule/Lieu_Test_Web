@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_change_pass</name>
+   <name>btn_logout</name>
    <tag></tag>
-   <elementGuidId>2a6c2ca4-d65b-41ca-b3b7-c7c50ffde96c</elementGuidId>
+   <elementGuidId>32c1c6dd-b9aa-4b6d-a23d-b25ac0439474</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div[2]/div/div[2]/button</value>
+         <value>//div[@id='root']/div[2]/button[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn-change-password</value>
+         <value>button.btn-logout-top</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;🔐 Thay Đổi Mật Khẩu&quot;i]</value>
+         <value>internal:role=button[name=&quot;Đăng xuất&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,78 +29,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>bf16caeb-e4b6-444f-8ddf-85d781164b43</webElementGuid>
+      <webElementGuid>b77de0b0-8101-4a1f-98ac-0f2fde43ba66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-change-password</value>
-      <webElementGuid>cdba519f-93e0-4090-9277-ef134b140660</webElementGuid>
+      <value>btn-logout-top</value>
+      <webElementGuid>a1c1ba9e-0265-4819-8dbf-6fdcf5a8458c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>title</name>
       <type>Main</type>
-      <value>🔐 Thay Đổi Mật Khẩu</value>
-      <webElementGuid>7f95c44e-f237-45ce-8e27-6500b9f751e6</webElementGuid>
+      <value>Đăng xuất</value>
+      <webElementGuid>e1836a43-749e-4dc8-9aa9-7b14947bb95d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;profile-container&quot;]/div[@class=&quot;profile-card&quot;]/div[@class=&quot;profile-view&quot;]/button[@class=&quot;btn-change-password&quot;]</value>
-      <webElementGuid>1eaa72e8-10bf-4d6d-b4fb-540cecf02bec</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;profile-container&quot;]/button[@class=&quot;btn-logout-top&quot;]</value>
+      <webElementGuid>a9795c16-46fa-4041-9723-39691755b1a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div[2]/div/div[2]/button</value>
-      <webElementGuid>3ec4dc29-250d-4a19-b44d-54f1baf74875</webElementGuid>
+      <value>//div[@id='root']/div[2]/button[2]</value>
+      <webElementGuid>4693479f-0ddb-492c-9dae-888cf3688d94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kỹ Năng:'])[1]/following::button[1]</value>
-      <webElementGuid>7df368d4-5507-4ab9-869c-5ea8df3fcb3e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thông Tin Cá Nhân'])[1]/preceding::button[1]</value>
+      <webElementGuid>f13268eb-e043-4e27-b277-ad616a3a056b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Giới Tính:'])[1]/following::button[1]</value>
-      <webElementGuid>8cc7df6c-596a-4da1-ae14-6cb46a9acfc5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='🔐 Thay Đổi Mật Khẩu']/parent::*</value>
-      <webElementGuid>46b0325f-cc19-4ac5-a384-539d8f7ec601</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='✏️ Chỉnh Sửa'])[1]/preceding::button[1]</value>
+      <webElementGuid>d47aadca-c38e-4931-95d3-7d8da7f2d27d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/button</value>
-      <webElementGuid>e8488c99-745d-46c7-b205-a8adc1e33ba7</webElementGuid>
+      <value>//button[2]</value>
+      <webElementGuid>bf024ec4-27f6-46f5-a883-502006c0d7cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = '🔐 Thay Đổi Mật Khẩu' or . = '🔐 Thay Đổi Mật Khẩu')]</value>
-      <webElementGuid>82b44fbe-a1a7-4b73-b66c-57d7f20eab66</webElementGuid>
+      <value>//button[@title = 'Đăng xuất']</value>
+      <webElementGuid>a64d4945-f6d1-43f1-9537-9a2ac5f37b02</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

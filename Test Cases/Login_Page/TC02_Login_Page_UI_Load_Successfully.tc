@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC02_Login_Page_UI_Load_Successfully</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>7d07d715-9b79-4e46-a7f7-29f57e757352</testCaseGuid>
-</TestCaseEntity>

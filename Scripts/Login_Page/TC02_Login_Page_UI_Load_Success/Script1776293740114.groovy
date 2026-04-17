@@ -16,21 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import auth.AuthKeywords
-import common.ToastKeywords
 
-AuthKeywords auth = new AuthKeywords()
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/login')
 
-auth.login('', '')
+WebUI.verifyElementPresent(findTestObject('Login_Page/txt_email'), 3)
 
-WebUI.waitForElementVisible(findTestObject('Toast/message'), 5)
+WebUI.verifyElementPresent(findTestObject('Login_Page/txt_pass'), 3)
 
-WebUI.verifyTextPresent('điền đầy đủ thông tin', true, FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Login_Page/btn_hide_icon'), 3)
 
+WebUI.verifyElementPresent(findTestObject('Login_Page/link_Register'), 3)
 
-ToastKeywords toast = new ToastKeywords()
-
-toast.verifyToast('điền đầy đủ thông tin')
+WebUI.verifyElementPresent(findTestObject('Login_Page/btn_back'), 3)
 
 WebUI.closeBrowser()
 

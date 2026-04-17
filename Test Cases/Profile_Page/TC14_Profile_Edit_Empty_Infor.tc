@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_Profile_Edit_Empty_Infor</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a90750b-dd7d-4e56-9251-9a7685dcb48c</testCaseGuid>
+</TestCaseEntity>

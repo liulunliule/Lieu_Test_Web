@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://lieu-web-test.vercel.app/signup')
+WebUI.openBrowser(GlobalVariable.BASE_URL + '/signup')
 
 WebUI.setText(findTestObject('Page_Signup/txt_name'), 'Test User122')
 
